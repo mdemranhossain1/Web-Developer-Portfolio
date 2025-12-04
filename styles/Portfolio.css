@@ -1,0 +1,33 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Coloured shared */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color:dark 02
+}
+
+/* Nav styles */
+nav {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
